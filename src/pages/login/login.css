@@ -1,0 +1,39 @@
+/* header头部样式 */
+.login {
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/bg.jpg');
+    background-size: 100%;
+}
+.login>.login_header {
+    height: 80px;
+    background-color: rgba(21,20, 13, 0.5);
+    display: flex;
+    align-items: center;
+}
+.login>.login_header>img{
+    width: 40px;
+    height: 40px;
+    margin:0 15px 0 50px;
+}
+.login>.login_header>h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom:0;
+}
+/* 主体内容样式 */
+.login>.login_content {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: 65px auto;
+    padding: 20px 40px;
+}
+.login>.login_content>h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+.login>.login_content>.login-form .login-form-button {
+    width: 100%;
+}

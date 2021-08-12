@@ -1,0 +1,15 @@
+.product-detail .ant-list-item{
+  justify-content: flex-start !important;
+}
+.product-detail .left{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.product-detail>List .product-img{
+  width: 150px;
+  height: 80px;
+  border: 1px solid #002140;
+  margin-right: 10px;
+}
